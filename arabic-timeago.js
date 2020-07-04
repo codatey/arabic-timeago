@@ -3,7 +3,6 @@
 // https://github.com/AliOsm/arabic-timeago
 // Released under the MIT license.
 // https://github.com/pragmaticly/smart-time-ago/blob/master/LICENSE
-
 (function() {
   var TimeAgo;
 
@@ -179,7 +178,7 @@
   $.fn.timeago.Constructor = TimeAgo;
 
   $.fn.timeago.defaults = {
-    selector: 'time.timeago',
+    selector: '.timeago',
     attr: 'datetime',
     dir: 'up',
     lang: {
