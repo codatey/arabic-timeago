@@ -214,3 +214,6 @@
   };
 
 }).call(this);
+if($('.\\!ago').length){
+  $('.\\!ago').timeago();
+}
